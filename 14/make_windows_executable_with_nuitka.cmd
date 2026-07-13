@@ -1,0 +1,2 @@
+REM if imageio is installed "my_icon.png" instead of "my_icon.ico" can be used
+python -m nuitka  --remove-output --onefile --assume-yes-for-downloads --enable-plugin=tk-inter --windows-console-mode=attach --windows-icon-from-ico=my_icon.ico 13.py
